@@ -11,28 +11,28 @@ export default function Home() {
   const projects = [
 		{
 			title: "Design 1",
-			href: "https://discover-daily-seven.vercel.app/",
+			href: "/coming-soon",
 			description: "Coming soon.",
 			image: Design1Image,
 			imageAlt: "Design 1",
 		},
 		{
 			title: "Design 2",
-			href: "https://litematica-material-list-visualizer.vercel.app/",
+			href: "/coming-soon",
 			description: "Coming soon.",
 			image: Design2Image,
 			imageAlt: "Design 2",
 		},
 		{
 			title: "Design 3",
-			href: "https://github.com/jakobdubeau/kora",
+			href: "/coming-soon",
 			description: "Coming soon.",
 			image: Design3Image,
 			imageAlt: "Design 3",
 		},
 		{
 			title: "Design 4",
-			href: "https://github.com/jakobdubeau/art-gallery",
+			href: "/coming-soon",
 			description: "Coming soon.",
 			image: Design4Image,
 			imageAlt: "Design 4",
