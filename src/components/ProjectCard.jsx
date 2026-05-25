@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Github, SquareArrowOutUpRight } from "lucide-react"
+import { SquareArrowOutUpRight } from "lucide-react"
 
 export default function ProjectCard({
   title,
@@ -7,7 +7,6 @@ export default function ProjectCard({
   href,
   image,
   imageAlt,
-  github,
 }) {
   return (
     <div className="group sm:mx-3 bg-neutral-900/50 rounded-lg shadow:md hover:shadow-lg hover:scale-103 transition-all duration-300 border border-white/10">
@@ -22,18 +21,18 @@ export default function ProjectCard({
             src={image}
             placeholder="blur"
             alt={imageAlt}
-            className="rounded-t-lg w-full h-50 object-cover object-center"
+            className="rounded-t-lg w-full h-28 object-cover object-center"
           />
         </div>
       </a>
-      <div className="px-5 py-4">
+      <div className="px-3 py-3">
         <div className="flex justify-between items-start sm:gap-4">
           <div>
             <a
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-neutral-200 font-medium text-xl hover:text-neutral-400 transition-colors duration-200 block tracking-tight"
+              className="text-neutral-200 font-medium text-lg hover:text-neutral-400 transition-colors duration-200 block tracking-tight"
             >
               {title}
             </a>
@@ -43,18 +42,10 @@ export default function ProjectCard({
           </div>
           <div className="flex gap-2">
             <a
-              href={github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 rounded-lg text-neutral-400 hover:bg-neutral-700 transition-colors"
-            >
-              <Github className="w-5 h-5" />
-            </a>
-            <a
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-lg text-neutral-400 hover:bg-neutral-700 transition-colors"
+              className="p-1 rounded-lg text-neutral-400 hover:bg-neutral-700 transition-colors"
             >
               <SquareArrowOutUpRight className="w-5 h-5" />
             </a>

@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <main className="flex justify-center h-screen selection:bg-indigo-300 bg-black">
-          <div className="flex flex-col gap-4 w-full md:max-w-125 md:mt-40">
+          <div className="flex flex-col gap-4 w-full md:max-w-125 md:mt-22">
             {children}
           </div>
         </main>
