@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ProjectCard from "@/components/ProjectCard";
 
-import Design1Image from "../../public/images/iStock-dentist-office-scaled-e1682524249428.jpg";
+import Design1Image from "../../public/images/smiledental.png";
 import Design2Image from "../../public/images/memory-block.png";
 import Design3Image from "../../public/images/1_rDN1RbUDmaoNHiKfXSURog.png";
 import Design4Image from "../../public/images/beyond-game-day-article-hero.png";
@@ -10,11 +10,11 @@ import Design4Image from "../../public/images/beyond-game-day-article-hero.png";
 export default function Home() {
   const projects = [
 		{
-			title: "Design 1",
-			href: "/coming-soon",
-			description: "Coming soon.",
+			title: "Smile Dental",
+			href: "https://seg3125-service-site.vercel.app/",
+			description: "Dental clinic service website.",
 			image: Design1Image,
-			imageAlt: "Design 1",
+			imageAlt: "Smile Dental",
 		},
 		{
 			title: "Design 2",
