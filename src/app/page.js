@@ -3,7 +3,7 @@ import Link from "next/link";
 import ProjectCard from "@/components/ProjectCard";
 
 import Design1Image from "../../public/images/smiledental.png";
-import Design2Image from "../../public/images/memory-block.png";
+import Design2Image from "../../public/images/memorymatch.png";
 import Design3Image from "../../public/images/1_rDN1RbUDmaoNHiKfXSURog.png";
 import Design4Image from "../../public/images/beyond-game-day-article-hero.png";
 
@@ -17,11 +17,11 @@ export default function Home() {
 			imageAlt: "Smile Dental",
 		},
 		{
-			title: "Design 2",
-			href: "/coming-soon",
-			description: "Coming soon.",
+			title: "Memory Match",
+			href: "https://seg3125-memory-game.vercel.app/",
+			description: "Memory matching game.",
 			image: Design2Image,
-			imageAlt: "Design 2",
+			imageAlt: "Memory Match",
 		},
 		{
 			title: "Design 3",
