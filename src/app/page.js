@@ -4,7 +4,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 import Design1Image from "../../public/images/smiledental.png";
 import Design2Image from "../../public/images/memorymatch.png";
-import Design3Image from "../../public/images/1_rDN1RbUDmaoNHiKfXSURog.png";
+import Design3Image from "../../public/images/ecom.png";
 import Design4Image from "../../public/images/beyond-game-day-article-hero.png";
 
 export default function Home() {
@@ -24,11 +24,11 @@ export default function Home() {
 			imageAlt: "Memory Match",
 		},
 		{
-			title: "Design 3",
-			href: "/coming-soon",
-			description: "Coming soon.",
+			title: "Summit",
+			href: "https://seg3125-ecommerce-site.vercel.app/",
+			description: "E-commerce website.",
 			image: Design3Image,
-			imageAlt: "Design 3",
+			imageAlt: "Summit",
 		},
 		{
 			title: "Design 4",
