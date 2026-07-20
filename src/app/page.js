@@ -5,7 +5,7 @@ import ProjectCard from "@/components/ProjectCard";
 import Design1Image from "../../public/images/smiledental.png";
 import Design2Image from "../../public/images/memorymatch.png";
 import Design3Image from "../../public/images/ecom.png";
-import Design4Image from "../../public/images/beyond-game-day-article-hero.png";
+import Design4Image from "../../public/images/dash.png";
 
 export default function Home() {
   const projects = [
@@ -31,11 +31,11 @@ export default function Home() {
 			imageAlt: "Summit",
 		},
 		{
-			title: "Design 4",
-			href: "/coming-soon",
-			description: "Coming soon.",
+			title: "Dashboard",
+			href: "https://seg3125-dashboard.vercel.app/",
+			description: "Enrolment at Canadian Universities.",
 			image: Design4Image,
-			imageAlt: "Design 4",
+			imageAlt: "Dashboard",
 		},
 	]
   return (
